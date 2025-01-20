@@ -1,0 +1,10 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Assigned To
+,,,,,,,
+TC001,Validate product listing page,Open product page > Verify products,Products displayed correctly,Products displayed correctly,Passed,Low,-
+TC002,Test API error handling,Disconnect API > Refresh page,Show fallback UI with error message,Error message shown,Passed,Medium,-
+TC003,Check cart functionality,Add product to cart > Verify cart contents,Cart updates with added product,Cart updates as expected,Passed,High,-
+TC004,Ensure responsiveness on mobile,Resize browser window > Check layout,Layout adjusts properly to screen size,Responsive layout working as intended,Passed,Medium,-
+TC005,Validate search functionality,Enter query in search bar > Verify results,Correct products displayed in search results,Correct results shown,Passed,High,-
+TC006,Verify checkout process,Complete checkout flow > Confirm order details,Order confirmation displayed,Confirmation displayed,Passed,High,-
+TC007,Test toast notifications,Perform cart action > Observe toast message,Toast notification displayed correctly,Toast displayed correctly,Passed,Medium,-
+TC008,Validate filtering options,Apply filters > Verify results,Filtered products displayed,Filtered results accurate,Passed,Low,-
